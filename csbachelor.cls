@@ -55,7 +55,8 @@
 \setsansfont{Arial}
 \setmonofont{Courier New}
 
-\RequirePackage[CJKtextspaces,CJKmathspaces,slantfont,boldfont]{xeCJK}
+%% delete CJKtextspaces,CJKmathspaces, by vinci7
+\RequirePackage[slantfont,boldfont]{xeCJK}
 \setCJKmainfont{SimSun}
 \setCJKsansfont{SimHei}
 \setCJKmonofont{SimSun}
